@@ -16,7 +16,7 @@ def main():
     # Function to display the chat history
     def display_chat_history(user_input):
         # Configure the generative model
-        genai.configure(api_key="AIzaSyCfx8BJhxUG-uj2OfKvIk-FE3uWwf2k0zk")
+        genai.configure(api_key="enter your epi")
         model = genai.GenerativeModel('gemini-pro')
         
         # Generate a response using the user's input as the prompt
